@@ -29,6 +29,7 @@
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
+- [Screenshots](#-screenshots)
 - [Project Purpose](#-project-purpose)
 - [Portfolio Highlights](#-portfolio-highlights)
 - [User Roles](#-user-roles)
@@ -40,7 +41,6 @@
 - [Main Android Components](#-main-android-components)
 - [Business Logic](#-business-logic)
 - [UI and Design System](#-ui-and-design-system)
-- [Screenshots](#-screenshots)
 - [Technologies Used](#-technologies-used)
 - [Dependencies](#-dependencies)
 - [Project Structure](#-project-structure)
@@ -51,6 +51,173 @@
 - [Security Notes](#-security-notes)
 - [Future Improvements](#-future-improvements)
 - [Author](#-author)
+
+---
+
+## 📸 Screenshots
+
+The screenshots are organized by user role and feature.
+
+---
+
+### 🔐 Authentication Screens
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/auth/login-screen.png" width="260" alt="Login Screen"><br>
+      <b>Login Screen</b><br>
+      <sub>Email/password login with quick admin and rider demo access.</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/auth/register-screen.png" width="260" alt="Register Screen"><br>
+      <b>Register Screen</b><br>
+      <sub>Account creation form for new users.</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🧑‍💼 Admin Dashboard Screens
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/admin/admin-dashboard-overview.png" width="230" alt="Admin Dashboard Overview"><br>
+      <b>Dashboard Overview</b><br>
+      <sub>Weekly sessions, utilization, conflicts, and planning chart.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/admin/admin-dashboard-health-capacity.png" width="230" alt="Admin Health and Capacity"><br>
+      <b>Health & Capacity</b><br>
+      <sub>Sick horse monitoring and capacity indicators.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/admin/admin-overflow-menu.png" width="230" alt="Admin Overflow Menu"><br>
+      <b>Admin Menu</b><br>
+      <sub>Navigation menu for dashboard, horses, riders, sessions, and logout.</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🐎 Horse Management Screens
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/admin/horse-management-list.png" width="230" alt="Horse Management List"><br>
+      <b>Horse Management List</b><br>
+      <sub>Admin list with search, filters, status badges, and horse cards.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/admin/horse-management-form-empty.png" width="230" alt="Empty Horse Management Form"><br>
+      <b>Empty Horse Form</b><br>
+      <sub>Form used to add a new horse to the registry.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/admin/horse-management-form-filled.png" width="230" alt="Filled Horse Management Form"><br>
+      <b>Filled Horse Form</b><br>
+      <sub>Selected horse data loaded for modification or deletion.</sub>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/admin/delete-horse-confirmation-dialog.png" width="230" alt="Delete Horse Confirmation"><br>
+      <b>Delete Confirmation Dialog</b><br>
+      <sub>Safety confirmation before deleting a horse.</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📅 Session Planning Screens
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/admin/session-planning-list.png" width="230" alt="Session Planning List"><br>
+      <b>Session Planning List</b><br>
+      <sub>List of planned sessions with search and filters.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/admin/edit-session-dialog.png" width="230" alt="Edit Session Dialog"><br>
+      <b>Edit Session Dialog</b><br>
+      <sub>Dialog used to modify session date, time, rider, and horse.</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🧍 Rider Space Screens
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/rider/rider-home-dashboard.png" width="230" alt="Rider Home Dashboard"><br>
+      <b>Rider Home Dashboard</b><br>
+      <sub>Rider home screen with horse search and daily horses.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/rider/rider-overflow-menu.png" width="230" alt="Rider Overflow Menu"><br>
+      <b>Rider Menu</b><br>
+      <sub>Simple menu for rider navigation and logout.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/rider/horse-detail-available-state.png" width="230" alt="Available Horse Detail"><br>
+      <b>Available Horse Detail</b><br>
+      <sub>Horse details when the horse is available for sessions.</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🐴 Horse Details and Scheduling Screens
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/horse-details/horse-detail-unavailable-state.png" width="230" alt="Unavailable Horse State"><br>
+      <b>Unavailable Horse State</b><br>
+      <sub>Horse profile showing unavailable or sick status.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/horse-details/horse-detail-unavailable-toast.png" width="230" alt="Unavailable Horse Toast"><br>
+      <b>Unavailable Toast</b><br>
+      <sub>Feedback message when a horse cannot be scheduled.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/horse-details/schedule-session-dialog-date.png" width="230" alt="Schedule Session Date Dialog"><br>
+      <b>Schedule Session Dialog</b><br>
+      <sub>Date/time scheduling dialog for a selected horse.</sub>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/horse-details/schedule-session-dialog-time-keyboard.png" width="230" alt="Schedule Session Time Input"><br>
+      <b>Time Input</b><br>
+      <sub>Time entry with numeric keyboard.</sub>
+    </td>
+    <td align="center">
+      <img src="screenshots/horse-details/schedule-session-success.png" width="230" alt="Schedule Session Success"><br>
+      <b>Session Scheduled Successfully</b><br>
+      <sub>Success toast after a valid session is created.</sub>
+    </td>
+  </tr>
+</table>
+
+---
 
 ---
 
@@ -733,171 +900,6 @@ bg_status_sick.xml
 bg_status_stopped.xml
 bg_surface_card.xml
 ```
-
----
-
-## 📸 Screenshots
-
-The screenshots are organized by user role and feature.
-
----
-
-### 🔐 Authentication Screens
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="screenshots/auth/login-screen.png" width="260" alt="Login Screen"><br>
-      <b>Login Screen</b><br>
-      <sub>Email/password login with quick admin and rider demo access.</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="screenshots/auth/register-screen.png" width="260" alt="Register Screen"><br>
-      <b>Register Screen</b><br>
-      <sub>Account creation form for new users.</sub>
-    </td>
-  </tr>
-</table>
-
----
-
-### 🧑‍💼 Admin Dashboard Screens
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/admin/admin-dashboard-overview.png" width="230" alt="Admin Dashboard Overview"><br>
-      <b>Dashboard Overview</b><br>
-      <sub>Weekly sessions, utilization, conflicts, and planning chart.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/admin/admin-dashboard-health-capacity.png" width="230" alt="Admin Health and Capacity"><br>
-      <b>Health & Capacity</b><br>
-      <sub>Sick horse monitoring and capacity indicators.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/admin/admin-overflow-menu.png" width="230" alt="Admin Overflow Menu"><br>
-      <b>Admin Menu</b><br>
-      <sub>Navigation menu for dashboard, horses, riders, sessions, and logout.</sub>
-    </td>
-  </tr>
-</table>
-
----
-
-### 🐎 Horse Management Screens
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/admin/horse-management-list.png" width="230" alt="Horse Management List"><br>
-      <b>Horse Management List</b><br>
-      <sub>Admin list with search, filters, status badges, and horse cards.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/admin/horse-management-form-empty.png" width="230" alt="Empty Horse Management Form"><br>
-      <b>Empty Horse Form</b><br>
-      <sub>Form used to add a new horse to the registry.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/admin/horse-management-form-filled.png" width="230" alt="Filled Horse Management Form"><br>
-      <b>Filled Horse Form</b><br>
-      <sub>Selected horse data loaded for modification or deletion.</sub>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/admin/delete-horse-confirmation-dialog.png" width="230" alt="Delete Horse Confirmation"><br>
-      <b>Delete Confirmation Dialog</b><br>
-      <sub>Safety confirmation before deleting a horse.</sub>
-    </td>
-  </tr>
-</table>
-
----
-
-### 📅 Session Planning Screens
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/admin/session-planning-list.png" width="230" alt="Session Planning List"><br>
-      <b>Session Planning List</b><br>
-      <sub>List of planned sessions with search and filters.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/admin/edit-session-dialog.png" width="230" alt="Edit Session Dialog"><br>
-      <b>Edit Session Dialog</b><br>
-      <sub>Dialog used to modify session date, time, rider, and horse.</sub>
-    </td>
-  </tr>
-</table>
-
----
-
-### 🧍 Rider Space Screens
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/rider/rider-home-dashboard.png" width="230" alt="Rider Home Dashboard"><br>
-      <b>Rider Home Dashboard</b><br>
-      <sub>Rider home screen with horse search and daily horses.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/rider/rider-overflow-menu.png" width="230" alt="Rider Overflow Menu"><br>
-      <b>Rider Menu</b><br>
-      <sub>Simple menu for rider navigation and logout.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/rider/horse-detail-available-state.png" width="230" alt="Available Horse Detail"><br>
-      <b>Available Horse Detail</b><br>
-      <sub>Horse details when the horse is available for sessions.</sub>
-    </td>
-  </tr>
-</table>
-
----
-
-### 🐴 Horse Details and Scheduling Screens
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/horse-details/horse-detail-unavailable-state.png" width="230" alt="Unavailable Horse State"><br>
-      <b>Unavailable Horse State</b><br>
-      <sub>Horse profile showing unavailable or sick status.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/horse-details/horse-detail-unavailable-toast.png" width="230" alt="Unavailable Horse Toast"><br>
-      <b>Unavailable Toast</b><br>
-      <sub>Feedback message when a horse cannot be scheduled.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/horse-details/schedule-session-dialog-date.png" width="230" alt="Schedule Session Date Dialog"><br>
-      <b>Schedule Session Dialog</b><br>
-      <sub>Date/time scheduling dialog for a selected horse.</sub>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="screenshots/horse-details/schedule-session-dialog-time-keyboard.png" width="230" alt="Schedule Session Time Input"><br>
-      <b>Time Input</b><br>
-      <sub>Time entry with numeric keyboard.</sub>
-    </td>
-    <td align="center">
-      <img src="screenshots/horse-details/schedule-session-success.png" width="230" alt="Schedule Session Success"><br>
-      <b>Session Scheduled Successfully</b><br>
-      <sub>Success toast after a valid session is created.</sub>
-    </td>
-  </tr>
-</table>
 
 ---
 
