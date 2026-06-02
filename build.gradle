@@ -1,0 +1,13 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.13.2'
+        classpath 'io.realm:realm-gradle-plugin:10.18.0'
+    }
+}
+
+plugins {
+    id 'com.android.application' version '8.13.2' apply false
+}

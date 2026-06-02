@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Equi">
+
+        <activity
+            android:name=".AddUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiderListActivity"
+            android:exported="false"
+            android:label="Liste des Cavaliers" />
+        <activity
+            android:name=".RiderDetailActivity"
+            android:exported="false"
+            android:label="Details Cavalier" />
+        <activity
+            android:name=".HorseInfoActivity"
+            android:exported="false"
+            android:label="Informations Cheval" />
+        <activity
+            android:name=".HorseDetailActivity"
+            android:exported="false"
+            android:label="Details Cheval" />
+        <activity
+            android:name=".ManageSessionsActivity"
+            android:exported="false"
+            android:label="Gestion des Seances" />
+        <activity
+            android:name=".ActivityAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".activity_sign_up"
+            android:exported="false" />
+        <activity
+            android:name=".activity_club_horses"
+            android:exported="false" />
+        <activity
+            android:name=".activity_acceuil"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

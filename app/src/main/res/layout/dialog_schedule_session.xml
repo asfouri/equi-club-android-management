@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <EditText
+        android:id="@+id/et_session_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Date (AAAA-MM-JJ)"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="12dp" />
+
+    <EditText
+        android:id="@+id/et_session_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Heure (HH:MM)"
+        android:inputType="time"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="12dp" />
+
+</LinearLayout>
